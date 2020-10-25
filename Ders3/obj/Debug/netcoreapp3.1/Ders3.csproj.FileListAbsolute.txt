@@ -1,0 +1,13 @@
+C:\Users\beray\source\repos\Ders3\bin\Debug\netcoreapp3.1\Ders3.exe
+C:\Users\beray\source\repos\Ders3\bin\Debug\netcoreapp3.1\Ders3.deps.json
+C:\Users\beray\source\repos\Ders3\bin\Debug\netcoreapp3.1\Ders3.runtimeconfig.json
+C:\Users\beray\source\repos\Ders3\bin\Debug\netcoreapp3.1\Ders3.runtimeconfig.dev.json
+C:\Users\beray\source\repos\Ders3\bin\Debug\netcoreapp3.1\Ders3.dll
+C:\Users\beray\source\repos\Ders3\bin\Debug\netcoreapp3.1\Ders3.pdb
+C:\Users\beray\source\repos\Ders3\obj\Debug\netcoreapp3.1\Ders3.csprojAssemblyReference.cache
+C:\Users\beray\source\repos\Ders3\obj\Debug\netcoreapp3.1\Ders3.AssemblyInfoInputs.cache
+C:\Users\beray\source\repos\Ders3\obj\Debug\netcoreapp3.1\Ders3.AssemblyInfo.cs
+C:\Users\beray\source\repos\Ders3\obj\Debug\netcoreapp3.1\Ders3.csproj.CoreCompileInputs.cache
+C:\Users\beray\source\repos\Ders3\obj\Debug\netcoreapp3.1\Ders3.dll
+C:\Users\beray\source\repos\Ders3\obj\Debug\netcoreapp3.1\Ders3.pdb
+C:\Users\beray\source\repos\Ders3\obj\Debug\netcoreapp3.1\Ders3.genruntimeconfig.cache
