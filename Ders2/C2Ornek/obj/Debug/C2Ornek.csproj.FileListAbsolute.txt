@@ -1,0 +1,7 @@
+C:\Users\beray\source\repos\C2Ornek\obj\Debug\C2Ornek.csproj.CoreCompileInputs.cache
+C:\Users\beray\source\repos\C2Ornek\bin\Debug\C2Ornek.exe.config
+C:\Users\beray\source\repos\C2Ornek\bin\Debug\C2Ornek.exe
+C:\Users\beray\source\repos\C2Ornek\bin\Debug\C2Ornek.pdb
+C:\Users\beray\source\repos\C2Ornek\obj\Debug\C2Ornek.exe
+C:\Users\beray\source\repos\C2Ornek\obj\Debug\C2Ornek.pdb
+C:\Users\beray\source\repos\C2Ornek\obj\Debug\C2Ornek.csprojAssemblyReference.cache
