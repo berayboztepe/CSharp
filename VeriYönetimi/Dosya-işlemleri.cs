@@ -90,6 +90,50 @@ namespace Files
             }
             r.Close();
             fs1.Close();
+            
+            //String okuma ve String yazma
+            //String Yazma
+            StringBuilder sb = new StringBuilder();
+            StringWriter sw = new StringWriter(sb);
+            sw.Write("Merhaba");
+            sw.Write("Dünya");
+            sw.Close();
+
+            //String Okuma
+            StringBuilder sb1 = new StringBuilder();
+            StringReader sr1 = new StringReader(sb1.ToString());
+            sr1.Close();
+            
+
+
+            //Stream bir byte dizisidir. Ben bu byte dizisini belleğe yazabilirim, networkten gönderirim, dosyaylaa yazabilirim.
+            //Bir stream üzerinden dosya içerisine dökmek istediğimiz stringi yazıyoruz.
+            MemoryStream ms = new MemoryStream();
+            StreamWriter sw1 = new StreamWriter(ms);
+            sw1.WriteLine("Merhaba");
+            sw1.Flush();
+            ms.WriteTo(File.Create("memory.txt"));
+            sw1.Close();
+            ms.Close();
+
+            //Sıkıştırma algoritmalarını kullanmak için gerekli bir sınıf var: gzipstream. mesela dosyayı zip dosyası haline getireceğiz.
+            //Dosyayı sıkıştırarak alandan tasarruf edebiliriz.
+            //zip dosyası oluşturmak için
+            GZipStream gzout = new GZipStream(File.Create("data.zip"), CompressionMode.Compress);
+            StreamWriter sw2 = new StreamWriter(gzout);
+            for(int i = 0; i < 1000; i++)
+            {
+                sw2.WriteLine("Merhaba");
+            }
+            sw2.Close();
+            gzout.Close();
+
+            //zip dosyasını açıp yazmak için
+            GZipStream gzin = new GZipStream(File.OpenRead("data.zip"), CompressionMode.Decompress);
+            StreamReader sr2 = new StreamReader(gzin);
+            Console.WriteLine(sr2.ReadToEnd());
+            sr2.Close();
+            gzin.Close();
 
             Console.ReadLine();
 
