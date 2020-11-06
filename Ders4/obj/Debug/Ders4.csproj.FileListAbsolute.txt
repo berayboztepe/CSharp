@@ -1,0 +1,7 @@
+C:\Users\beray\source\repos\Ders4\bin\Debug\Ders4.exe.config
+C:\Users\beray\source\repos\Ders4\bin\Debug\Ders4.exe
+C:\Users\beray\source\repos\Ders4\bin\Debug\Ders4.pdb
+C:\Users\beray\source\repos\Ders4\obj\Debug\Ders4.csprojAssemblyReference.cache
+C:\Users\beray\source\repos\Ders4\obj\Debug\Ders4.csproj.CoreCompileInputs.cache
+C:\Users\beray\source\repos\Ders4\obj\Debug\Ders4.exe
+C:\Users\beray\source\repos\Ders4\obj\Debug\Ders4.pdb
