@@ -1,0 +1,7 @@
+C:\Users\beray\source\repos\Ders7\bin\Debug\Ders7.exe.config
+C:\Users\beray\source\repos\Ders7\bin\Debug\Ders7.exe
+C:\Users\beray\source\repos\Ders7\bin\Debug\Ders7.pdb
+C:\Users\beray\source\repos\Ders7\obj\Debug\Ders7.csprojAssemblyReference.cache
+C:\Users\beray\source\repos\Ders7\obj\Debug\Ders7.csproj.CoreCompileInputs.cache
+C:\Users\beray\source\repos\Ders7\obj\Debug\Ders7.exe
+C:\Users\beray\source\repos\Ders7\obj\Debug\Ders7.pdb
