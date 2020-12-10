@@ -1,0 +1,13 @@
+C:\Users\beray\source\repos\Ders8\bin\Debug\netcoreapp3.1\Ders8.exe
+C:\Users\beray\source\repos\Ders8\bin\Debug\netcoreapp3.1\Ders8.deps.json
+C:\Users\beray\source\repos\Ders8\bin\Debug\netcoreapp3.1\Ders8.runtimeconfig.json
+C:\Users\beray\source\repos\Ders8\bin\Debug\netcoreapp3.1\Ders8.runtimeconfig.dev.json
+C:\Users\beray\source\repos\Ders8\bin\Debug\netcoreapp3.1\Ders8.dll
+C:\Users\beray\source\repos\Ders8\bin\Debug\netcoreapp3.1\Ders8.pdb
+C:\Users\beray\source\repos\Ders8\obj\Debug\netcoreapp3.1\Ders8.csprojAssemblyReference.cache
+C:\Users\beray\source\repos\Ders8\obj\Debug\netcoreapp3.1\Ders8.AssemblyInfoInputs.cache
+C:\Users\beray\source\repos\Ders8\obj\Debug\netcoreapp3.1\Ders8.AssemblyInfo.cs
+C:\Users\beray\source\repos\Ders8\obj\Debug\netcoreapp3.1\Ders8.csproj.CoreCompileInputs.cache
+C:\Users\beray\source\repos\Ders8\obj\Debug\netcoreapp3.1\Ders8.dll
+C:\Users\beray\source\repos\Ders8\obj\Debug\netcoreapp3.1\Ders8.pdb
+C:\Users\beray\source\repos\Ders8\obj\Debug\netcoreapp3.1\Ders8.genruntimeconfig.cache
