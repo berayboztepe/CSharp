@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+    <StackLayout Margin="10">
+        <Label Text="How many kilos do you want?" />
+        <Entry x:Name="kilos" Keyboard="Numeric" />
+        <ListView x:Name="listView" ItemSelected="listView_ItemSelected" RowHeight="80">
+            <ListView.Header>
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Product" Grid.Column="0" FontSize="20" FontAttributes="Bold"/>
+                    <Label Text="Availability" Grid.Column="1" FontSize="20" FontAttributes="Bold"/>
+                    <Label Text="Price" Grid.Column="2" FontSize="20" FontAttributes="Bold"/>
+                </Grid>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Margin="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*"/>
+                                <ColumnDefinition Width="1*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding Name}" FontSize="20" Grid.Column="0"/>
+                            <CheckBox IsChecked="{Binding Available}" Grid.Column="1" x:Name="deneme"/>
+                            <Label Text="{Binding Price, StringFormat='{0:c}'}" FontSize="18" Grid.Column="2"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label x:Name="prays" HorizontalTextAlignment="Center" />
+        <Button x:Name="Button1" Text="Finish" Clicked="Button1_Clicked"/>
+        <Button x:Name="Button2" Text="Pay" Clicked="Button2_Clicked" IsEnabled="False" />
+    </StackLayout>
+
+</ContentPage>
