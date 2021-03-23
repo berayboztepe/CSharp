@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppDeneme.MainPage">
+
+    <StackLayout Margin="10">
+        <Label Text="Oyun Kuralları: &#10;"
+               HorizontalTextAlignment="Center"
+               x:Name="Basla"/>
+        <Label Text="1-) Bilgisayarın verdiği tahmininin sadece 2 veya 1 eksiğini tahmin edebilirsiniz! 
+               &#10;
+2-) 0 veya 0'dan küçük değer tahmini yapan kaybeder!" 
+               x:Name="Label2"/>
+        <Label HorizontalTextAlignment="Center" x:Name="Com_Guess" FontAttributes="Bold" FontSize="30"/>
+        <Entry x:Name="Guess" IsVisible="False" TextChanged="Guess_TextChanged" Keyboard="Numeric"/>
+        <Button x:Name="Clicked" Text="Başla" Clicked="Button_Clicked" />
+        <Button x:Name="Clicked2" Text="Tahmininizi Girin" Clicked="Button_Clicked2" IsVisible="False" IsEnabled="False"/>
+        <Label x:Name="YourGuess" HorizontalTextAlignment="Center" />
+        <Label x:Name="Sonuc" HorizontalTextAlignment="Center"/>
+        <Label x:Name="Error_Guess" HorizontalTextAlignment="Center"/>
+    </StackLayout>
+
+</ContentPage>

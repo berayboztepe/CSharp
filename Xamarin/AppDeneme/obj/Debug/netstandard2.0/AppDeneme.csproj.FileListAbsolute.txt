@@ -1,0 +1,14 @@
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\bin\Debug\netstandard2.0\AppDeneme.deps.json
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\bin\Debug\netstandard2.0\AppDeneme.dll
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\bin\Debug\netstandard2.0\ref\AppDeneme.dll
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\bin\Debug\netstandard2.0\AppDeneme.pdb
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\obj\Debug\netstandard2.0\AppDeneme.csprojAssemblyReference.cache
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\obj\Debug\netstandard2.0\AppDeneme.AssemblyInfoInputs.cache
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\obj\Debug\netstandard2.0\AppDeneme.AssemblyInfo.cs
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\obj\Debug\netstandard2.0\AppDeneme.csproj.CoreCompileInputs.cache
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\obj\Debug\netstandard2.0\AppDeneme.dll
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\obj\Debug\netstandard2.0\ref\AppDeneme.dll
+C:\Users\beray\source\repos\AppDeneme\AppDeneme\AppDeneme\obj\Debug\netstandard2.0\AppDeneme.pdb

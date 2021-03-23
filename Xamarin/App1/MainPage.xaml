@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout Margin="10">
+        <Label Text="Write Height (in meters)" />
+        <Entry x:Name="Height" TextChanged="HeWe_TextChanged" Keyboard="Numeric"/>
+
+        <Label Text="Write Weight (in kilos)" />
+        <Entry x:Name="Weight" TextChanged="HeWe_TextChanged" Keyboard="Numeric"/>
+
+        <Button x:Name="CalculateBMI" Text="Calculate BMI!" Clicked="Button_Clicked" IsEnabled="False" />
+        
+        <Label x:Name="WelcomeText" FontSize="20" HorizontalTextAlignment="Center"/>
+        <Label x:Name="FatOrThin" FontSize="20" HorizontalTextAlignment="Center"/>
+        <Label x:Name="GainOrLose" FontSize="20" HorizontalTextAlignment="Center"/>
+    </StackLayout>
+
+</ContentPage>
