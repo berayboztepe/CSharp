@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App5"
+             x:Class="App5.MainPage">
+
+    <StackLayout>
+        <ListView x:Name="listview" x:DataType="local:Fruit">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Text="{Binding Name}" Grid.Column="0" />
+                            <Label Text="{Binding Weight}" Grid.Column="1" />
+                            <Switch IsToggled="{Binding IsSweet}" Grid.Column="2" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+                  
+        </ListView>
+
+
+
+            <Button Text="Add Fruit to the List" Clicked="Button_Clicked" />
+        <Button Text="See the Fruit List" Clicked="Button_Clicked_1" />
+        <Button Text="See the Only Sweet Fruits" Clicked="Button_Clicked_2" />
+        <Button Text="Delete Random Item" Clicked="Button_Clicked_3" />
+    </StackLayout>
+
+</ContentPage>

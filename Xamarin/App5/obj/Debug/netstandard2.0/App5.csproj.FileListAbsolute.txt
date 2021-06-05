@@ -1,0 +1,14 @@
+C:\Users\beray\source\repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.deps.json
+C:\Users\beray\source\repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.dll
+C:\Users\beray\source\repos\App5\App5\App5\bin\Debug\netstandard2.0\ref\App5.dll
+C:\Users\beray\source\repos\App5\App5\App5\bin\Debug\netstandard2.0\App5.pdb
+C:\Users\beray\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.csprojAssemblyReference.cache
+C:\Users\beray\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\beray\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\beray\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfoInputs.cache
+C:\Users\beray\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfo.cs
+C:\Users\beray\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.csproj.CoreCompileInputs.cache
+C:\Users\beray\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\beray\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.dll
+C:\Users\beray\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\ref\App5.dll
+C:\Users\beray\source\repos\App5\App5\App5\obj\Debug\netstandard2.0\App5.pdb
