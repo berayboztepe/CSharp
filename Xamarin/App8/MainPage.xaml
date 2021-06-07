@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:r="clr-namespace:App8"
+             x:Class="App8.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label x:Name="labelWelcome" IsVisible="False" Text="{x:Static r:AppResources.Hello}" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Picker x:Name="PickerCulture" Title="Select">
+            <Picker.Items>
+                <x:String>de-DE</x:String>
+                <x:String>tr-TR</x:String>
+                <x:String>en-US</x:String>
+            </Picker.Items>
+        </Picker>
+        <Label x:Name="labelDate" IsVisible="False" HorizontalOptions="Center" FontSize="Title"/>
+        <Label x:Name="labelNumber" IsVisible="False" HorizontalOptions="Center" FontSize="Title"/>
+        <Label x:Name="labelCurrency" IsVisible="False" HorizontalOptions="Center" FontSize="Title"/>
+        <Button Text="Click to get data" Clicked="Button_Clicked"/>
+        <Label x:Name="labelError" IsVisible="False" HorizontalOptions="Center" FontSize="Title"/>
+        <Button Text="Refresh" Clicked="labelRefresh_Clicked" />
+    </StackLayout>
+
+</ContentPage>
